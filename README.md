@@ -47,13 +47,13 @@ Once you finish your MVP and have met all the requirements in state and behavior
 
 _state_
 
-- list of to dos
+- list of to dos X
 
 _behaviour_
 
-- add item to list
-- remove item from list
-- render an Input and List
+- add item to list X
+- remove item from list X
+- render an InputX and List 
 
 ### Input
 
