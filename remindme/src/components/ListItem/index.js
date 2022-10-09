@@ -1,12 +1,11 @@
 import React from 'react'
 
- export default function ListItem(props) {
+ export default function ListItem({text}) {
     
 
     return (
-        <>
-        <p>Text</p>
-    
-        </>
+      
+       <li>{text}</li>
+
     )
 }

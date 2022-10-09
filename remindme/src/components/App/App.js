@@ -2,10 +2,11 @@
 import './App.css';
 import ListItem from "../../components/ListItem"
 import Input from '../../components/Input';
+import List from '../../components/List/'
 import {useState} from "react"
 
 function App() {
-  const [todos, setTodo] = useState('');
+  const [todos, setTodo] = useState([]);
 
   function addToDo(item){
     let todoList = [...todos, item]
@@ -25,7 +26,8 @@ function App() {
     <div className="App">
       <h1> RemindMe App</h1>
       <Input  handleClick={addToDo}/>
-      <ListItem />
+      <List toDoList={todos} />
+    
     </div>
   );
 }
