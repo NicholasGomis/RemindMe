@@ -26,11 +26,11 @@ Once you finish your MVP and have met all the requirements in state and behavior
 
 - App
   - Input
-    - text input          X
-    - add to list button X
-  - List                  X
+    - text input          
+    - add to list button 
+  - List                  
     - List Item
-      - item text         X
+      - item text         
       - delete button
     - List Item
       - item text
