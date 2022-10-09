@@ -6,7 +6,7 @@ import React from 'react'
     return (
         <>
         <p>Text</p>
-        <button>Button</button>
+    
         </>
     )
 }

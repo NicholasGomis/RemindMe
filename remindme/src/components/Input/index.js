@@ -1,17 +1,20 @@
 import React from 'react'
+import {useRef} from 'react';
 
 export default function Input({handleClick}) {
-    
+    const inputRef = useRef(null);
+
 
     return (
         <>
         <input  
         type="text"
         id="message"
-        // name="message"
-        onChange={(e) => handleClick(e.target.value)}
+        ref={inputRef}
+        // onChange={(e) => handleClick(e.target.value)}
         // value={message}
-    ></input>  
+    ></input> 
+        <button onClick={(ref) => {handleClick(inputRef.current.value)}}>Add To-Do</button>
         </>
     )
 }
