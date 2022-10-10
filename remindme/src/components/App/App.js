@@ -9,7 +9,10 @@ function App() {
   const [todos, setTodo] = useState([]);
 
   function addToDo(item){
-    let todoList = [...todos, item]
+    if (item === ''){
+      return null;
+    } else {}
+     let todoList = [...todos, item]
     setTodo(todoList)
     console.log(todoList)
   }
