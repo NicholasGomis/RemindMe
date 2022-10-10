@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1> RemindMe App</h1>
+      <h1> What do I need to remind you?</h1>
       <Input  handleClick={addToDo}/>
       <List toDoList={todos} handleDelete={removeFromList}/>
 

@@ -5,7 +5,7 @@ import React from 'react'
 
     return (
       <div>
-       <li>{myIndex}</li>
+       <li>{text}</li>
        <button onClick={() => removeFromList(myIndex)}>Delete</button>
 
 </div>

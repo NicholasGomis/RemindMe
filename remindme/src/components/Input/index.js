@@ -14,7 +14,7 @@ export default function Input({handleClick}) {
         // onChange={(e) => handleClick(e.target.value)}
         // value={message}
     ></input> 
-        <button onClick={(ref) => {handleClick(inputRef.current.value)}}>Add To-Do</button>
+        <button onClick={(ref) => {handleClick(inputRef.current.value)}}>Add</button>
         </>
     )
 }
