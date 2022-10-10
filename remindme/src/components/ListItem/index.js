@@ -1,12 +1,13 @@
 import React from 'react'
 
- export default function ListItem({text}) {
+ export default function ListItem({text, myIndex, removeFromList}) {
     
 
     return (
-      
-       <li>{text}</li>
-   
+      <div>
+       <li>{myIndex}</li>
+       <button onClick={() => removeFromList(myIndex)}>Delete</button>
 
+</div>
     )
 }
