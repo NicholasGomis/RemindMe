@@ -6,6 +6,7 @@ export default function Input({handleClick}) {
     const inputRef = useRef(null);
     const [toDosName, setTodosName ] = useState("")
     const [toDosDate, setTodosDate] = useState("")
+    const [toDosPriority, setTodosPriority] = useState("")
 
     function createTodos(e){
         setTodosName(e.target.value)
@@ -16,10 +17,15 @@ export default function Input({handleClick}) {
         setTodosDate(e.target.value)
     }
 
+    function createNewPriority(e){
+        setTodosPriority(e.target.value)
+    }
+
     function toSubmit(){
         handleClick({
             "todosname": toDosName,
-            "todosdate": toDosDate
+            "todosdate": toDosDate,
+            "todospriority": toDosPriority
         })
 
     }
@@ -46,6 +52,13 @@ export default function Input({handleClick}) {
         onChange={createNewDate}
         // value={message}
     ></input>  
+
+       <select name="Priority" onChange = {createNewPriority}>
+        <option value="3">Low</option>
+        <option value="2">Medium</option>
+        <option value="1">High</option>
+  
+        </select>
         {/* <button onClick={(ref) => {handleClick(inputRef.current.value)}}>Add</button> */}
         <button onClick={toSubmit}>toSubmit</button>
         </>
