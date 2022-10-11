@@ -6,7 +6,7 @@ export default function List({toDoList, handleDelete}) {
        <>
 
                {
-toDoList.map( (item, index) => <ListItem text={item.todosname} key={index} myIndex={index}  removeFromList={handleDelete} theDate = {item.todosdate}/>
+toDoList.map( (item, index) => <ListItem text={item.todosname} key={index} myIndex={index}  removeFromList={handleDelete} theDate = {item.todosdate} thePriority = {item.todospriority}/>
         )}
        </>
     

@@ -54,9 +54,9 @@ export default function Input({handleClick}) {
     ></input>  
 
        <select name="Priority" onChange = {createNewPriority}>
-        <option value="3">Low</option>
-        <option value="2">Medium</option>
-        <option value="1">High</option>
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
   
         </select>
         {/* <button onClick={(ref) => {handleClick(inputRef.current.value)}}>Add</button> */}
