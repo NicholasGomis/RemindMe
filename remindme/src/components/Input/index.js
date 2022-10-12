@@ -60,7 +60,7 @@ export default function Input({handleClick}) {
   
         </select>
         {/* <button onClick={(ref) => {handleClick(inputRef.current.value)}}>Add</button> */}
-        <button onClick={toSubmit}>toSubmit</button>
+        <button onClick={toSubmit}> Submit </button>
         </>
     )
 }
