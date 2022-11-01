@@ -1,10 +1,11 @@
 # RemindMe
 <div align="center">
-    <img alt="School of Code" src="./images/soc-logo.png" width="60" />
+![dtk](https://raw.github.com/AndrejMitrovic/dtk/v0.x.x/screenshots/work-in-progress.png)
+
 </div>
 <h1 align="center">
 
-    <img alt="School of Code" src="https://user-images.githubusercontent.com/93223563/180575674-cecbfa6f-7e22-41ac-b422-b9dc1406ef51.png" width="60" />
+
 
   Remind Me ✅
 </h1>
