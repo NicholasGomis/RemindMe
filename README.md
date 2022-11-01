@@ -10,8 +10,8 @@
   Remind Me ✅
 </h1>
 
-## Task
-
+## Overview
+The purpose of this project is to create a Reminder app that allows user to keep in track of activities by adding the date and priority. 
 
 ## Requirements
 
