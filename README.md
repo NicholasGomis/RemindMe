@@ -15,12 +15,10 @@ The purpose of this project is to create a Reminder app that allows user to keep
 
 
 
-
-
-
 ## MVP:
 - To be able to add the reminder.
-- To be able to delete the reminder
+- To be able to delete the reminder.
+- To be able to show the reminder.
 
 ## Beyond MVP:
 - Add the date.
@@ -54,11 +52,6 @@ High-Fidelity:
 - CSS 
 - Jsx 
 - Javascript 
-
-
-
-
-
 
 
 
