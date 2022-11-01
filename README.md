@@ -1,6 +1,6 @@
 # RemindMe
 <div align="center">
-![dtk](https://raw.github.com/AndrejMitrovic/dtk/v0.x.x/screenshots/work-in-progress.png)
+
 
 </div>
 <h1 align="center">
