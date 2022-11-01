@@ -7,18 +7,15 @@
 
 
 
-  Remind Me ✅
+  Remind Me ✅ (Work in Progress)
 </h1>
 
-## Overview
+## Purpose
 The purpose of this project is to create a Reminder app that allows user to keep in track of activities by adding the date and priority. 
 
 
 
-## Purpose
 
-The primary focus of this project is to create a simple Ye (commonly known as Kanye West) quotes generator. I have always been a Kayne West fan, I remember that back in 2014, He used to post daily quotes on Twitter and he had never failed to make me happy, so hopefully YeQuotes will make your days too.
-The app will be an opportunity for myself to use all the knowledge that I have been learning in the past few weeks and put into practice. This include conducting the whole development life-cycle (from planning to deploy it) and use its tools such as: Trello Board, Figma, Escalidraw, also put into practice topics such as: sematic HTML, Flexbox, Grid System and all the fundamental of Javascript including the DOM and of course manipulate the API. 
 
 
 ## MVP:
