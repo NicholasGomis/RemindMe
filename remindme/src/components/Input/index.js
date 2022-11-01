@@ -1,6 +1,7 @@
 import React from 'react'
 import {useRef} from 'react';
 import { useState } from 'react';
+import '../Input/index.css'
 
 export default function Input({handleClick}) {
     const inputRef = useRef(null);
@@ -10,6 +11,7 @@ export default function Input({handleClick}) {
 
     function createTodos(e){
         setTodosName(e.target.value)
+        console.log(toDosName)
         
     }
 
@@ -38,7 +40,8 @@ export default function Input({handleClick}) {
         type="text"
         id="message"
         ref={inputRef}
-        placeholder="name"
+        placeholder="your task"
+        className='inputDate'
         // onChange={(e) => handleClick(e.target.value)}
         onChange={createTodos}
         // value={message}
@@ -48,19 +51,20 @@ export default function Input({handleClick}) {
         id="message"
         ref={inputRef}
         placeholder="dd/mm/yyyy"
+        className='inputDate'
         // onChange={(e) => handleClick(e.target.value)}
         onChange={createNewDate}
         // value={message}
     ></input>  
 
-       <select name="Priority" onChange = {createNewPriority}>
+       <select name="Priority" onChange = {createNewPriority} className='radio'>
         <option value="Low">Low</option>
         <option value="Medium">Medium</option>
         <option value="High">High</option>
   
         </select>
         {/* <button onClick={(ref) => {handleClick(inputRef.current.value)}}>Add</button> */}
-        <button onClick={toSubmit}> Submit </button>
+        <button onClick={toSubmit} className='btn'> + </button>
         </>
     )
 }

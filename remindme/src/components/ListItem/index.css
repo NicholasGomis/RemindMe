@@ -1,0 +1,21 @@
+.btnRemove {
+    display: block;
+    width: 35px;
+    padding: 8px 0;
+    margin: 20px auto;
+    background: #B6BAF8;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 15px;
+
+}
+
+li{
+    color: white;
+    
+    list-style: none
+}

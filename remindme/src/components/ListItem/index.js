@@ -1,4 +1,5 @@
 import React from 'react'
+import '../ListItem/index.css'
 
  export default function ListItem({text, myIndex, removeFromList, theDate, thePriority}) {
     
@@ -6,7 +7,7 @@ import React from 'react'
     return (
       <div>
        <li>{text} {theDate} {thePriority}</li>
-       <button onClick={() => removeFromList(myIndex)}>Delete</button>
+       <button onClick={() => removeFromList(myIndex)} className='btnRemove'>-</button>
 
 </div>
     )
