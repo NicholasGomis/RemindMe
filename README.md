@@ -3,7 +3,9 @@
     <img alt="School of Code" src="./images/soc-logo.png" width="60" />
 </div>
 <h1 align="center">
-![work-in-progress](https://user-images.githubusercontent.com/93223563/180575674-cecbfa6f-7e22-41ac-b422-b9dc1406ef51.png)
+
+    <img alt="School of Code" src="https://user-images.githubusercontent.com/93223563/180575674-cecbfa6f-7e22-41ac-b422-b9dc1406ef51.png" width="60" />
+
   Remind Me ✅
 </h1>
 
