@@ -1,13 +1,14 @@
-# RemindMe
+# RemindMe ✅
 <div align="center">
 
 
 </div>
 <h1 align="center">
+ (Work in Progress)
+<img src="https://i.ibb.co/9WkJk2P/Clean-Shot-2022-11-01-at-16-42-37-2x.png" alt="maininterface"/>
 
 
 
-  Remind Me ✅ (Work in Progress)
 </h1>
 
 ## Purpose
@@ -128,3 +129,18 @@ _behaviour_
 
 - render the text and a button
 - when the button is clicked call the delete function to delete item at this index
+
+
+## To-Do Completed:
+
+- [x] Initial styling (MVP)
+- [x] Pass all user inputs and displaying
+
+
+## To-Do:
+
+- Fix bug when user do not input anything will add todo
+- Styling beyond MVP.
+- Replace current input field (date) with Calendar built in react component 
+
+
