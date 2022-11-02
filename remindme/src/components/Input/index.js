@@ -7,7 +7,7 @@ export default function Input({handleClick}) {
     const inputRef = useRef(null);
     const [toDosName, setTodosName ] = useState("")
     const [toDosDate, setTodosDate] = useState("")
-    const [toDosPriority, setTodosPriority] = useState("")
+    const [toDosPriority, setTodosPriority] = useState("Low")
 
     function createTodos(e){
         setTodosName(e.target.value)
