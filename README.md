@@ -32,6 +32,7 @@ The purpose of this project is to create a Reminder app that allows user to keep
 
 ## Wireframes
 Low-Fidelity:
+<img src="https://i.ibb.co/K57XY4C/Clean-Shot-2022-11-02-at-01-25-45-2x.png" alt="maininterface"/>
 High-Fidelity:
 
 
