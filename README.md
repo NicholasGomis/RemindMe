@@ -5,7 +5,8 @@
 </div>
 <h1 align="center">
  (Work in Progress)
-<img src="https://i.ibb.co/9WkJk2P/Clean-Shot-2022-11-01-at-16-42-37-2x.png" alt="maininterface"/>
+
+<img src="https://i.ibb.co/L8PqZcW/Clean-Shot-2022-11-02-at-01-29-19-2x.png" alt="maininterface"/>
 
 
 
