@@ -10,7 +10,7 @@ function App() {
   const [todos, setTodo] = useState([]);
 
   function addToDo(item){
-    if (item.todosdate === '' || item.todosname === '' || item.todopriority === 'Low'){
+    if (item.todosdate === '' || item.todosname === ''){
       return null;
     } else {
      let todoList = [...todos, item]
