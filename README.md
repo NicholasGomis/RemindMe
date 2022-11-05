@@ -143,6 +143,7 @@ _behaviour_
 ## To-Do:
 
 - Styling beyond MVP.
+- Add button when reminder is completed (Bonus: line-through when clicked) 
 - Replace current input field (date) with Calendar built in react component 
 
 
