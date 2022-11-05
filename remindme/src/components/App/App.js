@@ -10,12 +10,13 @@ function App() {
   const [todos, setTodo] = useState([]);
 
   function addToDo(item){
-    if (item === ''){
+    if (item.todosdate === '' || item.todosname === '' || item.todopriority === 'Low'){
       return null;
     } else {
      let todoList = [...todos, item]
     setTodo(todoList)
-    console.log(todoList)
+    console.log(`lol`,todoList)
+    
   }}
 
    function removeFromList(index) {
