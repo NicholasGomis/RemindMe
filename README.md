@@ -137,11 +137,11 @@ _behaviour_
 
 - [x] Initial styling (MVP)
 - [x] Pass all user inputs and displaying
+- [x] Fix bug when user do not input anything will add todo
 
 
 ## To-Do:
 
-- Fix bug when user do not input anything will add todo
 - Styling beyond MVP.
 - Replace current input field (date) with Calendar built in react component 
 
