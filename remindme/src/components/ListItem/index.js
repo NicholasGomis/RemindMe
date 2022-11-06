@@ -6,6 +6,13 @@ import '../ListItem/index.css'
 
     return (
       <div>
+      <input
+					type="checkbox"
+					// id={todo.id}
+					// onChange={() => toggleComplete(todo.id)}
+					className="todolistitem-checkbox"
+				/>
+
        <li>{text} {theDate} {thePriority}</li>
        <button onClick={() => removeFromList(myIndex)} className='btnRemove'>-</button>
 
